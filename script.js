@@ -62,7 +62,7 @@ function updateCircle(e) {
 //    Line tool
 function drawLine(e) {
     state.startX = e.clientX;
-    state.startY = e.clientY;//I forget to copy this line last time .. thats why its don't store the first point
+    state.startY = e.clientY;
 
     const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", state.startX);
